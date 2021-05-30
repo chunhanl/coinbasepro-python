@@ -1,7 +1,5 @@
 import cbpro
-from cmd.run.secret import API_KEY
-from cmd.run.secret import PASS_PHRASE
-from cmd.run.secret import B64_SECRET
+from secret import API_KEY, PASS_PHRASE, B64_SECRET
 
 
 auth_client = cbpro.AuthenticatedClient(API_KEY, B64_SECRET, PASS_PHRASE)
